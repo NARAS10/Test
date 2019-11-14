@@ -1,0 +1,245 @@
+@font-face {
+    font-family: Adequate;
+    src: url("../fonts/Adequate.ttf");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    color: #333;
+    background-color: #eee;
+    line-height: 1.5em;
+}
+img {
+    width: 100%;
+    display: block;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+
+padding: 20px;
+    
+
+}
+.flex {
+    display: flex;
+
+}
+.flex > * {
+    margin: auto;
+    padding: 2%;
+    width: 65%;
+
+}
+.section_title {
+    
+}
+
+/* Header */
+header{
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 550px; 
+    /* background-color:rgba(148, 136, 136, 0.877); */
+    text-align: center;
+    color:#eee;
+}
+
+
+
+div[id='title'] {
+    position: relative;
+    top: 150px;
+}
+
+div[id='title'] h1{
+    font-family: Adequate;
+    font-size: 45PX;
+    font-weight:bold ;
+}
+
+div[id='title'] h2{
+    font-family: "Open Sans";
+    font-size: 20PX;
+    font-weight:normal;
+    color:#eee;
+    text-transform: uppercase;
+}
+
+
+/* Nav */
+li{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+li a{
+    font-family: "Open Sans";
+    font-size: .7em;
+    color: rgb(153, 147, 147);
+    position: relative;
+    top: 320px;
+    padding-left: 10px;
+    font-weight: bold;
+    transition-duration:.3s;
+}
+li a:hover{
+    font-size: 22;
+    color: rgb(216, 204, 204);
+
+}
+/* Welcome */
+
+.welcome{
+    padding:80px
+}
+
+.section_title{
+    color: rgb(100, 98, 98);
+    font-family: Adequate;
+    font-size: 2em;
+    text-align: left;
+    /* position: relative;
+    top: 80px; */
+
+
+}
+p{
+    
+    font-size: 11.5px;
+    text-align: left;
+    line-height: 1.4em;
+    word-spacing: .3em;
+}
+
+#p1{
+    color: #333;
+    font-family:"Open Sans" ;
+    font-weight: bold;;
+}
+/* Week Specials */
+
+#specials{
+    background-color: #333;
+    padding: 20px;
+    color: rgb(184, 179, 179);
+    font-family: Adequate;  
+    line-height: 10px; 
+
+}
+.special_dish{
+    width: 50%;
+    transition-duration:.5s;
+}
+
+.special_dish:hover{
+    width: 58%;
+
+}
+
+.special_dish img{
+    border-radius: 10px;
+
+}
+.special_dish img:hover{
+    border-radius: 20px;    
+}
+#specials .specials_dish_pricing{
+    
+    font-size: 8px;
+    font-weight: bolder;
+}
+
+#specials .specials_dish_pricing:hover{
+    color: rgb(63, 194, 63);
+}
+
+#specials .section_title{
+    color: #eee;
+
+}
+
+.special_dis img{
+    height: 50px;
+}
+
+/* Chef */
+
+#chef *{
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+
+}
+#chef img{
+    border-radius: 100%;
+    border: 3px solid #333;
+    width: 13%;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+} 
+
+#chef p{
+    color: rgb(78, 73, 73);
+    font-weight: bold;
+}
+section[id='chef'] .section_title{
+    
+    color: black;
+
+}
+
+
+/* footer */
+
+footer{
+    background-color: #333;
+    color: #eee;
+}
+.footer-element{
+    color:#fff;
+    border-top: 1px solid rgb(155, 148, 148);
+    margin: 9px;
+    border-bottom: 1px solid rgb(155, 148, 148);
+    transition-duration: .5s;
+    
+}
+
+.footer-element p{
+    text-align: center;
+    line-height: .5em;
+}
+
+.footer-element p a{
+    color: #fff;
+}
+
+.footer-element p a[id='facebook']:hover{
+    color: rgb(107, 107, 212);
+}
+
+.footer-element p a[id='twitter']:hover{
+    color: rgb(15, 149, 167);
+}
+
+.footer-element p a[id='youtube']:hove
+    color: red;
+}
+
+
